@@ -1,0 +1,658 @@
+@media only screen and (max-width: 641px){
+	.login .errorMessage {
+		top: 24px;
+		right: 5px;
+	}
+	.email {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.password {
+		margin-top:5px;
+		margin-bottom: 5px;
+	}	
+}
+
+
+
+/*mobile display buttons*/
+	.mobileImg{
+		display:none;
+		}
+	.desktopImg{
+		display:block;}
+	.dt {
+		display: block;
+	}
+	.mob {
+		display: none;
+	}
+/*--------------Responsive breakpoints-------------*/
+@media only screen and (max-width: 1024px){
+	.login{
+		width:100%;
+		height:auto;
+	}
+	.profile-panel-outer-container{
+		width:100%;
+	}
+	/*disable mobile thumb images*/
+	.left-thumb-mobile-img,.middle-thumb-mobile-img,.right-thumb-mobile-img{
+		display:none;
+	}
+}
+@media only screen and (max-width: 1115px) {
+
+	.heroText h1 {
+		font-size: 2.2em;
+	}
+	.hiwText {
+		top: 20%;
+		left: 8%;
+		width: 60%;
+	}
+	.hiwText h1 {
+		font-size: 1.9em;
+	}
+	.phText {
+		top: 32%;
+		left: -15px;
+	}
+	.phText h1 {
+		font-size: 2em;
+	}
+	.textContainer p {
+		margin-top: 2px;
+		font-size: .6em;
+	}
+	.textContainer h2 {
+		font-size: .8em;
+	}
+
+
+}
+@media only screen and (max-width: 1020px) {
+	.redeemShort {
+		padding-top: 32px;
+	}
+}
+@media only screen and (max-width: 980px) {
+
+	.earnLong h1 {
+		font-size: .9em;
+	}
+	.earnDesc {
+		line-height: 14px!important;
+		font-size: .7em!important;
+		margin-top: -4px;
+	}
+	.textContainer p {
+		margin-top: 4px;
+	}
+	/*.columns h2 {
+		font-size: 16px;
+		margin-bottom: 2px;
+	}*/
+	.columnBtn {
+		bottom: 10px;
+	}	
+}
+
+@media only screen and (max-width: 915px) {
+
+	.heroText h1 {
+		font-size: 2.0em;
+	}
+	.heroText p {
+		line-height: 15px!important;
+		font-size: .9em!important;
+		margin-top: -2px;
+		font-weight: 500!important;
+	}
+	.hiwText h1 {
+		font-size: 1.6em;
+	}
+	.hiwText {
+		top: 20%;
+	}
+	.phText {
+		top: 33%;
+	}
+	.phText h1 {
+		font-size: 2em;
+	}
+
+}
+
+/* Text */
+
+@media only screen and (max-width: 900px) {
+
+	.heroText p {
+		font-size: .7em;
+	}
+}
+
+@media only screen and (max-width: 840px) {
+	.heroText h1 {
+		font-size: 2.5em;
+	}
+	.heroText p {
+		line-height: 20px!important;
+		font-size: 1em!important;
+		margin-top: -2px;
+		font-weight: 500!important;
+	}
+	.hiwText h1 {
+		font-size: 2.2em;
+	}
+	.hiwText {
+		top: 20%;
+		/*width: 50%;*/
+	}
+	.phText {
+		top: 36%;
+	}
+	.phText h1 {
+		font-size: 2em;
+	}
+	.earnLong h1 {
+		margin-top: -6px;
+		font-size: 1.2em;
+	}
+	.earnDesc {
+		line-height: 18px!important;
+		font-size: .8em!important;
+		margin-top: -2px;
+	}
+	.columns{
+		padding-left:8px;
+		padding-right:8px;
+	}
+	.row .row {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.points-container span {
+	    color: #c0200f;
+	}
+	.rewards-nav ul li {
+		padding: 5px 11px 12px 11px;
+		line-height: 10px;
+	}
+	.rewards-nav ul li {
+			/*margin-left:0%;*/
+	}
+	.rewards-nav br {
+		display: block;
+	}
+	.rewards-nav ul li:nth-child(4) a {
+		width:92%;
+	}
+	#login-container {
+		float: none;
+		width: 100%;
+	}
+	.profile-panel-outer-container {
+		position: relative;
+		width:100%;
+		height: 128px;	
+	}
+	.points-button-container {
+		width: 37%;
+		margin-bottom:0%;
+		white-space:nowrap;
+	}
+	.points-button-container a {
+		font-size: .9em;
+		font-style: italic;
+	}
+	#profile-container {
+		float: none;
+		width: 100%;
+		}
+
+	.profile-panel-outer-container p {
+		display:inline-block;
+	}
+	.profile-panel {
+		width:100%;
+	}	
+	.profile-panel li {
+		display:block;
+	}
+	.profile-points {
+		position:absolute;
+		left:28%;
+		top:37%;
+	}
+	.profile-icon div {
+	    display: block;
+	    text-align: center;
+	}
+	#main-rewards-container {
+		padding-top: 0;
+		max-width: 100%;
+	}
+	.rewards-nav ul {
+		/*margin-left:2%;*/
+	}
+	.login {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.login span {
+		display: inline-block;
+		margin-left: 2px;
+	}
+	.logInNow {
+		display: inline-block; 
+		margin-top: 5px; 
+		margin-bottom: 4px;
+	}
+	.input-field-container{
+		width: 629px;
+		margin: 0 auto;
+	}	
+	.input-field-container li{
+		display:inline-block;
+		max-width: 168px;
+	}
+	.login form{
+		width:100%; 
+	    margin:0 auto;
+		margin-top:2%;
+	}	
+	.left-thumb-button,.right-thumb-button{
+		width:51%;
+	}
+	.middle-thumb-button { 
+		width:60%; 
+	}
+	.login-social-media{
+		display:none;
+	}
+	.login-button-tablet{
+		margin-top:-13px;
+		vertical-align:top;
+	}
+	.login-social-media{
+		display:none;
+	}
+	.left-thumb,.middle-thumb,.right-thumb{
+		position:relative;
+		padding-left: 0.9375rem;
+		padding-right: 0.9375rem;
+	}
+	.logOut-button{
+		display:none;
+	}
+	.logOut-tablet{
+		display:block;
+		width: 82px;
+		position:absolute;
+		right: 0;
+		top: 53px;
+		color: #102187;
+		font-weight: bold;
+	}
+	.profile-icon{
+		width:16%;
+	}
+	.points-container{
+		width:100%;
+		text-align:justify;
+		clear:none;
+	}
+	.points-button-container li:nth-child(1),.points-button-container li:nth-child(2){
+		display:none;
+		}
+	.points-button-container li:nth-child(3),.points-button-container li:nth-child(4),.points-button-container li:nth-child(5){
+		display:inline-block;
+		}
+	.profile-panel-outer-container br {
+		display:none;
+	}
+	.featured-product-container{
+		display:none;
+	}
+	.redeemShort {
+		padding-top: 40px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.heroText h1 {
+			font-size: 2.0em;
+	}
+	.hiwText {
+		top: 19%;
+	}
+	.heroText p {
+		line-height: 15px!important;
+		font-size: .7em!important;
+		margin-top: -2px;
+		font-weight: 500!important;
+	}
+	.phText {
+		top: 36%;
+	}
+}	
+/* Main Nav */
+@media only screen and (max-width: 739px){
+	.rnLO ul {
+		text-align: left;
+		margin-left: 4px;
+	}
+}
+@media only screen and (max-width: 734px){
+	.heroText h1 {
+			font-size: 1.8em;
+	}
+	.redeemShort {
+		padding-top: 34px;
+	}
+}
+@media only screen and (max-width: 720px){
+	.earnLong h1 {
+		font-size: .8em;
+		margin-top: -10px;
+	}
+	.earnDesc {
+		line-height: 14px!important;
+		font-size: .6em!important;
+		margin-top: -4px;
+	}
+}
+@media only screen and (max-width: 690px){
+	.redeemShort {
+		padding-top: 32px;
+	}
+}	
+/*---------------Mobile Break Point-----------------*/
+
+@media only screen and (max-width: 641px){
+	/*mobile display buttons*/
+	.dt {
+		display: none;
+	}
+	.mob {
+		display: block;
+	}
+	.prizeWrap {
+		position: absolute;
+		width: 38%; 
+		height: 100%; 
+		background: green; 
+		z-index: 99;
+		overflow: hidden;
+	}
+	.prizeWrap img {
+		max-width: 110%;
+		height: 100%;
+		margin-left: -6px;
+	}
+	.login {
+		padding-bottom: 0;
+		height: 155px;
+	}
+	.displayImg, .getHeight {
+		width: 100%;
+		height: auto!important;
+	}
+	.spacer {
+		display: none;
+	}
+	.columns{
+		padding-left:16px;
+		padding-right:16px;
+		margin-bottom: 20px;
+	}
+	.input-field-container li{
+		max-width: 100%;
+	}
+	.textContainer {
+		left: 48%; 
+		right: 7%;
+		bottom: 0;  
+		height: 96%; 
+		padding-top: 12px;
+	}
+	.textContainer p {
+		font-size: .6em;
+	}
+	.longContainer {
+		height: 52%;
+		left: 7%;
+	}
+	.homeTextContainer {
+		height: 90%;
+	}
+	.columns h2 {
+		font-size: 24px;
+		line-height: .9em;
+	}
+	p.points {
+		font-size: 10px;
+		font-weight: normal;
+	}
+	.mobileImg{
+		display:block;	
+	}
+	.desktopImg{
+		display:none;
+	}
+	.profile-panel {
+		padding-top: 15px;
+	}
+	.view-profile {
+	    text-align: center;
+	}
+	.medium-4 {
+		width: 100%;
+	}
+	.profile-panel-outer-container{
+		width:100%;
+		height: 109px;
+	}
+	.logOut-tablet{
+		top: 42px;
+	}
+	.logOut-container{
+		margin-bottom:0%;
+		}
+	.profile-icon{
+		width:20%;
+		margin: 0 15px 0 5px;
+	}
+	.main-thumb{
+		margin-top:0%;
+	}
+	.login form{
+		margin:0px;
+	}
+	.input-field-container{
+		width:45%;
+		float:left;
+		margin-left:3%;
+	}
+	.input-field-container li:nth-child(1),.input-field-container li:nth-child(2){
+		display:block;
+		width:100%;
+	}
+	.mobile-login-buttons{
+		width:50%;
+		position:relative;
+		float:right;
+		margin-top:1%;
+		margin-right:1%;
+	}
+	.mobile-login-buttons img{
+		display:inline-block;
+		float:left;
+	}
+	.redeemShort {
+		padding-top: 6px;
+		left: 45%;
+	}
+	.left-thumb-img,.middle-thumb-img,.right-thumb-img{
+		display:none;
+	}		
+	.left-thumb-mobile-img,.middle-thumb-mobile-img,.right-thumb-mobile-img{
+		display:block;
+		width: 100%;
+	}
+	.main-thumb-button{
+		width:25%;
+		left:11%;
+	}
+	.middle-thumb-button{
+		width:30%;
+		margin-top:-4%;
+		margin-left:45%;
+	}
+	.left-thumb-button,.right-thumb-button{
+		width:25%;
+		margin-top:-4%;
+		margin-left:50%;
+	}
+	.left-thumb, .middle-thumb, .right-thumb{
+		margin-top:0; 
+	}
+	.image-container {
+		margin: 30px 0 0 0;
+	}
+	.heroText h1 {
+		margin-bottom: 2px;
+	}
+	.heroText p {
+		font-weight: 500;
+	}
+	table tr:first-child {
+		font-size: .7em;
+	}
+	table tr td:first-child {
+		padding-left: 20px;
+	}
+	table tr:not(:first-child) {
+		font-size: .4em;
+	}
+
+	footer ul li {
+		font-size: .6em;
+	}
+}
+
+@media only screen and (max-width: 570px){
+	.mobile-login-buttons {
+		margin-top: 2%;
+	}
+		
+}
+
+@media only screen and (max-width: 460px){
+	.mobile-login-buttons {
+		margin-top: 4%;
+	}
+	.columns h2 {
+		font-size: 14px;
+		margin-bottom: 2px;
+	}
+
+}
+
+@media only screen and (max-width: 405px){
+	.heroText h1 {
+		font-size: .6em;
+	}
+	.heroText p {
+		font-size: .3em!important;
+		margin-top: -2px;
+		font-weight: 500!important;
+	}
+}
+
+@media only screen and (max-width: 690px){
+	.rules-table td{
+		font-size:0.8em;
+		}
+}
+@media only screen and (max-width: 580px){
+	.rules-table td{
+		font-size:0.6em;
+		}
+}	
+@media only screen and (max-width: 580px){
+	.heroText h1 {
+			font-size: 1.4em;
+	}
+	.moreInfo {
+
+		bottom: 6px;
+		right: 6px;
+		font-size: .6em;
+		
+	}
+}
+@media only screen and (max-width: 465px){
+	.heroText h1 {
+			font-size: 1.2em;
+	}
+	.hiwText {
+		top: 18%;
+	}
+	.phText {
+		top: 40%;
+		left: 0;
+	}
+}	
+@media only screen and (max-width: 444px){
+	.heroText h1 {
+		font-size: .9em;
+	}
+	.heroText p {
+		font-size: .3em!important;
+		margin-top: 2px;
+		font-weight: 500!important;
+		line-height: 10px!important;
+	}
+	.phText {
+		top: 40%;
+		left: 0;
+	}
+	.rewards-nav a {
+		font-size: .5em;
+		line-height: 5px;
+		padding: 5px 0px 12px 0px;
+	}
+	.logOut-tablet{
+		top: 5px;
+		right: 5px;
+		font-size: .7em;
+		text-align: right;
+	}
+	.homeTextContainer {
+		height: 99%;
+	}
+	.columns h2 {
+		font-size: .9em;
+	}
+	.col p {
+		font-size: .6em;
+		/*font-weight: 300!important;*/
+	}
+	.earnLong h1 {
+		font-size: .6em;
+		margin-top: -16px;
+	}
+	.earnDesc {
+		line-height: 10px!important;
+		font-size: .5em!important;
+		/*margin-top: -4px;*/
+	}
+	.rules-table td{
+		padding:1px;
+		}
+	.rules-table td:first-child{
+		padding-left:0px;
+		}
+}	
