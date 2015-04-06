@@ -38,63 +38,72 @@
 
   <div id="wrap">
 
-     <div id="login-container">
+     <div id="login-container-alt">
      
     		<div class="login">
 
-          	<p>Already a member?<br />
+          <h1 class="center signUpNow">SIGN UP NOW</h1>
+
+          	<div id="fb_register">
               
-                <span class="logInNow">Log in now!<span>
-              
-            </p> 
-
-            <form>
-
-            	<ul class="input-field-container">
-
-                  <li>
-                    <input class="email shadow" type="text" name="email" placeholder="Email">
-                    <span class="errorMessage">Required field.</span>
-                  </li>
-                  
-
-                  <li>
-                    <input class="password shadow" type="password" name="password"  placeholder="Password">
-                    <span class="errorMessage">Required field.</span>
-                  </li>
-                   
-                  
-                  <!--login buttons for dekstop/tablet/mobile-->
-                  <li>
-                    <a href="LoggedIn.html">
-                       <div class="login-button_desktop">Log In</div>
-                       <div class="login-button-tablet">Log In</div>
-                    </a>
-                 </li>
-                  <li>
-                  	<a href="#">
-                    	<div class="facebook-login-button_desktop">Log In With Facebook</div>
-                    	<div class="facebook-login-button-tablet">Log In With Facebook</div>
-                    </a>
-                  </li>
-               </ul>
-               
-                <div class="mobile-login-buttons">
-                	 <img class="login-button-mobile" src="img/login_button_mobile.png" alt="VCA" width="109" height="93" />
-                   <img class="facebook-login-button-mobile" src="img/facebook_login_button_mobile.png" alt="VCA" width="189" height="93" />
-                </div><!--mobile login buttons-->
-               
-            </form>
+          <input id="fb_button" type="button" name="fb_button" value=""/>
+                                            
+            <div class="user_agreement">
+                <input type="checkbox" name="user_agreement" value="agree" /> <span class="fb_terms">Accept Terms & Conditions</span><br />
+                        <p class="termsError">You must agree to the terms & conditions to continue.</p>
+              </div>
+                
+        </div>
         
-           	<ul class="login-social-media">
-              <span>Share:</span>
-            	<li>
-                <img src="img/facebook_icon.png" width="45" />
-              </li>
-              <li>
-                <img src="img/twitter_icon.png" width="45" />
-              </li>
-            </ul>
+      <form id="register_form" method="post" name="register_form" action="#" class="">
+              <div style="padding: 15px 0 5px 0;" class="heading center">
+            <text>OR Register through email:</text>
+                    <br />
+                </div>
+                
+                <div class="registrationFormWrap">
+            <div class="halfField halfLeft">       
+              <input class="input_field" type="text" name="first_name" placeholder="First Name"/>
+              <p class="formErrorMessage">First Name Required.</p>
+            </div> 
+           
+            <div class="halfField halfRight">  
+              <input class="input_field" type="text" name="last_name" placeholder="Last Name"/>
+              <p class="formErrorMessage">Last Name Required.</p>
+            </div>
+
+            <input class="input_field" type="email" name="email" placeholder="Email"/>
+                    <p class="formErrorMessage">Email Required.</p>
+             
+            <div class="halfField halfLeft"> 
+              <input class="input_field" type="password" name="password" placeholder="Password" />
+              <p class="formErrorMessage">Password Required.</p>
+            </div>
+            
+            <div class="halfField halfRight"> 
+              <input class="input_field" type="password" name="pass_confirm" placeholder="Confirm Password" />
+              <p class="formErrorMessage">Password Comfirmation Required.</p>
+            </div>
+
+              <div id="captcha" class="captcha_btn center">CAPTCHA</div>
+               
+           <!--  <input class="input_field" id="confirm-captcha" type="text" name="captcha_confirm" placeholder="Confirm Captcha"/>
+                    <p class="formErrorMessage">Captcha Required</p> -->
+                  
+                    <div class="dBlock center">
+                  <input type="checkbox" name="user_agreement" value="agree" /> Accept Terms & Conditions<br />
+                        <p class="termsError">You must agree to the terms & conditions to continue.</p>
+                </div>
+                    <br />
+                    <div class="dBlock center regBtn">
+                        <a href="#">
+                         <img class="thankYou" src="img/popupAssets/registerBtn.jpg">
+                        </a>
+                    </div>
+              
+            </form>
+
+            </div>
                 
         </div><!-- .login-->   
 
@@ -103,7 +112,7 @@
       
       <!-- Main Content Grid -->
       
-      <div id="main-rewards-container">
+      <div id="main-rewards-container-alt">
         
         <div class="row">
           <div class="main-thumb large-12 columns">
@@ -113,9 +122,9 @@
                 <p>The Goody's Rewards Program is a free and easy way to earn great prizes, savings and perks!</p>
              </div>
 
-             <a class="signUpNow" href="#">
+            <!--  <a class="signUpNow" href="#">
                 <img class="main-thumb-button shadow" src="img/signUp.png" alt="mainThumbButton" width="154" height="49" />
-             </a>
+             </a> -->
             
           </div>
         </div>
@@ -125,7 +134,7 @@
               <img class="left-thumb-img dt" src="img/leftThumbB.png" alt="leftThumb" width="269" height="404" />
               <img class="left-thumb-mobile-img mob" src="img/leftThumbB_mobile.png" alt="leftThumb" width="560" height="250" />
 
-              <p class="points">100 Points</p>
+              <!-- <p class="points">100 Points</p> -->
 
               <div class="textContainer homeTextContainer">
 
@@ -134,9 +143,9 @@
                      
               </div>
 
-              <a href="#">
+              <!-- <a href="#">
                   <img class="left-thumb-button" src="img/learnMore.png" alt="leftThumbButton" width="136" height="52" />
-              </a>
+              </a> -->
 
           </div><!-- thumb 1 -->
 
@@ -144,7 +153,7 @@
               <img class="middle-thumb-img dt" src="img/middleThumbB.png" alt="middleThumb" width="269" height="404" />
               <img class="middle-thumb-mobile-img mob" src="img/middleThumbB_mobile.png" alt="middleThumb" width="560" height="250" />
               
-              <p class="points">50 Points</p>
+              <!-- <p class="points">50 Points</p> -->
 
               <div class="textContainer homeTextContainer">
                     <h2>Tweet @Goodyspowders</h2>
@@ -152,9 +161,9 @@
               
               </div>
 
-              <a href="#">
+              <!-- <a href="#">
                   <img class="middle-thumb-button" src="img/tweetNow.png" alt="middleThumbButton" width="169" height="53" />
-              </a>
+              </a> -->
 
           </div><!-- thumb 2 -->
 
@@ -162,7 +171,7 @@
               <img class="right-thumb-img dt" src="img/rightThumbB.png" alt="rightThumb" width="269" height="404" />
               <img class="right-thumb-mobile-img mob" src="img/rightThumbB_mobile.png" alt="rightThumb" width="560" height="250" />
 
-              <p class="points">100 Points</p>
+             <!--  <p class="points">100 Points</p> -->
 
               <div class="textContainer homeTextContainer">
                       <h2>Racing News</h2>
@@ -170,9 +179,9 @@
                      
               </div>
 
-              <a href="#">
+             <!--  <a href="#">
                  <img class="right-thumb-button" src="img/racingNews.png" alt="rightThumbButton" width="136" height="52" />
-              </a>
+              </a> -->
 
           </div><!--thumb 3 -->
 

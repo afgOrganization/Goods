@@ -53,7 +53,7 @@ input#fb_button {
 }
 #fb_register {
     text-align: center; 
-    background: #102187;
+    background: #acb3c6;
 }
 .fb_terms {
 	font-size: .8em; 
@@ -64,6 +64,7 @@ input#fb_button {
 }
 #register_form {
 	font-size: .8em;
+	padding-bottom: 25px;
 }
 .input_field {
 	margin: 0 0 15px 0;
@@ -80,7 +81,7 @@ input#fb_button {
 	margin: 10px auto 10px auto;
 }
 .registrationFormWrap {
-	max-width: 70%; 
+	max-width: 87%; 
 	margin: 0 auto;
 }
 #register {

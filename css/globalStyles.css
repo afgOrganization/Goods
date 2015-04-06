@@ -142,8 +142,8 @@
 /*----- Live Text -----*/
 	.heroText {
 		position: absolute;
-		top: 10%;
-		left: 13%;
+		top: 12%;
+		left: 6%;
 		width: 44%;
 	}
 	
@@ -389,7 +389,7 @@
 		text-align: center;
 	}
 	.login form {
-		width:80%; 
+		width:100%; 
 	    margin:0 auto;
 	}
 	.logInNow {
@@ -927,6 +927,34 @@ sup {
 .rules-table td:first-child{
 	padding-left:15px;
 	}
+
+/* Alt page stles */
+
+#login-container-alt {
+	float:right;
+	width: 32%;
+}
+#main-rewards-container-alt {
+  max-width: 65.5%;
+}
+.registrationFormWrap {
+  max-width: 90%;
+}
+.signUpNow {
+	color: #102187;
+	margin-bottom: 15px;
+}
+.input_field {
+	margin: 10px 0 5px 0!important;
+}
+.homeTextContainer h2 {
+	margin-top: 10px;
+	font-size: 1.3em;
+	line-height: 1em;
+}
+.homeTextContainer p {
+	font-size: .9em;
+}
 
 @font-face {
     font-family: 'nimbussanbold_italic';

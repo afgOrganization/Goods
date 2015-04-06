@@ -61,10 +61,10 @@
 	.phText h1 {
 		font-size: 2em;
 	}
-	.textContainer p {
+	/*.textContainer p {
 		margin-top: 2px;
 		font-size: .6em;
-	}
+	}*/
 	.textContainer h2 {
 		font-size: .8em;
 	}
@@ -86,9 +86,9 @@
 		font-size: .7em!important;
 		margin-top: -4px;
 	}
-	.textContainer p {
+	/*.textContainer p {
 		margin-top: 4px;
-	}
+	}*/
 	/*.columns h2 {
 		font-size: 16px;
 		margin-bottom: 2px;
@@ -105,9 +105,9 @@
 	}
 	.heroText p {
 		line-height: 15px!important;
-		font-size: .9em!important;
+		font-size: 1em!important;
 		margin-top: -2px;
-		font-weight: 500!important;
+		/*font-weight: 500!important;*/
 	}
 	.hiwText h1 {
 		font-size: 1.6em;
@@ -120,6 +120,9 @@
 	}
 	.phText h1 {
 		font-size: 2em;
+	}
+	.textContainer p {
+		font-size: .8em;
 	}
 
 }
@@ -319,6 +322,31 @@
 	.redeemShort {
 		padding-top: 40px;
 	}
+
+	/*  Alt Styles */
+	#login-container-alt {
+		width: 100%;
+	}
+	#main-rewards-container-alt {
+	  max-width: 100%;
+	}
+	.halfField {
+		width: 49%!important;
+	}
+	.halfLeft {
+		float: left;
+	}
+	.halfRight {
+		float: right;
+	}
+	.registrationFormWrap {
+  		max-width: 95%!important;
+  	}
+  	#captcha {
+  		clear: both;
+  		margin-top: 80px;
+  	}
+	
 }
 @media only screen and (max-width: 768px) {
 	.heroText h1 {
@@ -329,9 +357,7 @@
 	}
 	.heroText p {
 		line-height: 15px!important;
-		font-size: .7em!important;
 		margin-top: -2px;
-		font-weight: 500!important;
 	}
 	.phText {
 		top: 36%;
@@ -393,7 +419,7 @@
 	}
 	.login {
 		padding-bottom: 0;
-		height: 155px;
+		height: auto;
 	}
 	.displayImg, .getHeight {
 		width: 100%;
@@ -418,7 +444,7 @@
 		padding-top: 12px;
 	}
 	.textContainer p {
-		font-size: .6em;
+		font-size: .9em;
 	}
 	.longContainer {
 		height: 52%;
@@ -540,6 +566,8 @@
 	footer ul li {
 		font-size: .6em;
 	}
+
+
 }
 
 @media only screen and (max-width: 570px){
