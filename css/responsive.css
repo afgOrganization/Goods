@@ -576,7 +576,7 @@
 	.ultimateFan {
 		display: none;
 	}
-	.homeTextContainerv2 p {
+	.homeTextContainerv2 p, .homeTextContainer p {
 		font-size: .7em;
 	}
 	.captcha_btn {
@@ -705,3 +705,10 @@
 		padding-left:0px;
 		}
 }	
+
+@media only screen and (max-width: 399px){
+
+	.textContainer {
+		padding-top: 4px;
+	}
+}
