@@ -344,7 +344,10 @@
   	}
   	#captcha {
   		clear: both;
-  		margin-top: 80px;
+  		/*margin-top: 80px;*/
+  	}
+  	.jumbotronText {
+  		padding-left: 15px;
   	}
 	
 }
@@ -566,8 +569,26 @@
 	footer ul li {
 		font-size: .6em;
 	}
-
-
+	.jumbotronText {
+	  margin: -30px 0 10px 0;
+	  font-size: 1.1em;
+	}
+	.ultimateFan {
+		display: none;
+	}
+	.homeTextContainerv2 p {
+		font-size: .7em;
+	}
+	.captcha_btn {
+		float: left;
+		width: 45%;
+	}
+	.termsError {
+		clear: both;
+	}
+	.agree {
+		padding-top: 30px;
+	}
 }
 
 @media only screen and (max-width: 570px){

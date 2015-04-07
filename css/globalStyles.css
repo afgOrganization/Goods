@@ -42,6 +42,7 @@
 		margin: 5px 0 -10px 0;
 	}
 	
+	
 /* End error message styles*/
 
 /* New Redeem Page Styles */
@@ -178,6 +179,9 @@
 		margin-top: 12px;
 	}
 	.homeTextContainer {
+		height: 49%;
+	}
+	.homeTextContainerv2 {
 		height: 49%;
 	}
 	.longContainer {
@@ -954,6 +958,11 @@ sup {
 }
 .homeTextContainer p {
 	font-size: .9em;
+}
+.jumbotronText {
+	color: #102187;
+	font-size: 1.6em;
+	margin-bottom: -3px;
 }
 
 @font-face {
